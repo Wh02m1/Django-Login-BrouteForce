@@ -16,4 +16,4 @@ BF-Django Admin Panel Brute Force Tool is a powerful Python script designed to a
 3. Run the script using Python with the following command-line arguments:
 
    ```bash
-   python bf-django-bruteforce.py -d "https://example.com/admin/login/" -u "USERNAME" -w wordlist.txt
+   python django-login-bf.py -d "https://example.com/admin/login/" -u "USERNAME" -w wordlist.txt
