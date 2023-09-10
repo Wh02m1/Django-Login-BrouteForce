@@ -1,4 +1,4 @@
-# BF-Django Admin Panel Brute Force Tool
+# Django Admin Panel Brute Force Tool with CSRF Bypass 
 ![django-logo-positive (1)](https://github.com/Wh02m1/Django-Login-BrouteForce/assets/21974999/7cc1e809-31af-453e-9bef-8649d9ebb59e)
 
 BF-Django Admin Panel Brute Force Tool is a powerful Python script designed to automate the process of brute-forcing login credentials for Django admin panels, all while seamlessly bypassing the **CSRF TOKEN** security mechanism.
