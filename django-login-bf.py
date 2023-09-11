@@ -1,5 +1,5 @@
-import sys
-import requests
+import sys  # Import the sys module
+
 from bs4 import BeautifulSoup
 import argparse
 
@@ -15,11 +15,7 @@ class BFLoginPanel:
         self.wordlist = wordlist
         self.cookies = {}
         self.session = requests.Session()
-        self.protocol_mode = "Local File Mode"
-        for protocol in ["https://", "http://"]:
-            if (self.wordlist.find(protocol) == 0):
-                self.protocol_mode = "Internet Mode"
-
+        
         print(self.protocol_mode + " (" + self.wordlist + ")")
         self.headers = {
             'Connection': 'keep-alive',
