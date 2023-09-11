@@ -15,6 +15,8 @@ class BFLoginPanel:
         self.wordlist = wordlist
         self.cookies = {}
         self.session = requests.Session()
+        self.protocol_mode = "Local File Mode"
+
         
         print(self.protocol_mode + " (" + self.wordlist + ")")
         self.headers = {
