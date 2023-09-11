@@ -1,5 +1,5 @@
-import sys  # Import the sys module
-
+import sys   
+import requests 
 from bs4 import BeautifulSoup
 import argparse
 
